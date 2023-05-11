@@ -257,8 +257,8 @@
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -352,8 +352,8 @@
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -496,8 +496,8 @@
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -591,8 +591,8 @@
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -1295,8 +1295,8 @@ button {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -1390,8 +1390,8 @@ button {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -1559,7 +1559,6 @@ pre code {
   padding-bottom: 5px;
   overflow: auto;
   margin: 0 !important;
-  border-top: 1px solid var(--shadow-color-1);
 }
 .highlight:hover::-webkit-scrollbar-thumb {
   border: 3px solid rgba(183,183,183,0.3);
@@ -1777,60 +1776,46 @@ pre .deletion {
   top: 0;
 }
 .highlight-container[data-rel] {
-  background: var(--third-background-color);
+  background: var(--highlight-background);
   border-radius: 18px;
-  box-shadow: var(--redefine-box-shadow-flat);
   padding-top: 40px;
+  padding-left: 5px;
   margin-top: 10px;
   margin-bottom: 1.2rem;
   position: relative;
+  box-shadow: var(--redefine-box-shadow-flat);
 }
 .highlight-container[data-rel] figcaption {
   font-weight: bold;
   font-size: 16px;
   position: absolute;
-  top: 12px;
+  top: 16px;
   left: 50%;
   transform: translateX(-50%);
 }
 .highlight-container[data-rel] figcaption a {
   margin-left: 10px;
 }
-.highlight-container[data-rel]::before {
-  position: absolute;
-  content: attr(data-rel);
-  line-height: 38px;
-  border-radius: 50%;
-  box-shadow: none;
-  height: 12px;
-  left: 12px;
-  position: absolute;
-  width: auto;
-  margin-left: 80px;
-  top: 0;
-  color: var(--default-text-color);
-  font-weight: bold;
-  font-size: 16px;
-}
 .highlight-container[data-rel] .folded figure {
   height: 0 !important;
   width: 0 !important;
   overflow: hidden !important;
 }
-.highlight-container[data-rel]::after {
-  content: ' ';
+.highlight-container[data-rel]::before {
   position: absolute;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: #fc625d;
-  width: 12px;
+  content: attr(data-rel);
+  line-height: 42px;
+  border-radius: 18px;
+  box-shadow: none;
   height: 12px;
-  top: 0;
-  left: 20px;
-  margin-top: 13px;
-  -webkit-box-shadow: 20px 0px #fdbc40, 40px 0px #35cd4b;
-  box-shadow: 20px 0px #fdbc40, 40px 0px #35cd4b;
-  z-index: 3;
+  left: 4px;
+  position: absolute;
+  width: auto;
+  margin-left: 10px;
+  top: 2px;
+  color: var(--default-text-color);
+  font-weight: bold;
+  font-size: 16px;
 }
 :root {
   --background-color: #fff;
@@ -1966,8 +1951,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -2061,8 +2046,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -2319,8 +2304,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -2414,8 +2399,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -2737,8 +2722,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -2832,8 +2817,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -4501,8 +4486,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -4596,8 +4581,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -5246,8 +5231,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -5341,8 +5326,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -5572,8 +5557,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -5667,8 +5652,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -6149,8 +6134,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -6244,8 +6229,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -6623,8 +6608,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -6718,8 +6703,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -7049,8 +7034,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -7144,8 +7129,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -7385,8 +7370,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -7480,8 +7465,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -7826,8 +7811,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -7921,8 +7906,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -8276,8 +8261,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -8371,8 +8356,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -9000,8 +8985,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -9095,8 +9080,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -9293,8 +9278,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -9388,8 +9373,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -9715,8 +9700,8 @@ pre .deletion {
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -9810,8 +9795,8 @@ pre .deletion {
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;

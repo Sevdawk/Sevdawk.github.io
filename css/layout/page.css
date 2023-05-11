@@ -132,8 +132,8 @@
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-    --home-banner-text-color: #eb7a77;
+    --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+    --home-banner-text-color: #fcfaf2;
     --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
     --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
     --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
@@ -227,8 +227,8 @@
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --home-banner-img: url("https://z4a.net/images/2023/05/11/darkwall.png");
-  --home-banner-text-color: #eb7a77;
+  --home-banner-img: url("https://z4a.net/images/2023/05/11/lightwall.jpg");
+  --home-banner-text-color: #fcfaf2;
   --home-banner-icons-container-border-color: rgba(197,197,197,0.35);
   --home-banner-icons-container-background-color: rgba(197,197,197,0.3);
   --redefine-box-shadow: var(--shadow-color-2) 0px 6px 24px 0px, var(--shadow-color-1) 0px 0px 0px 1px;
